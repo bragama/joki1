@@ -1,9 +1,8 @@
-package com.alfin.projectakhir.service;
+package com.project.projectakhir.service;
 
-import com.alfin.projectakhir.entity.Transaction;
-import com.alfin.projectakhir.entity.User;
-import com.alfin.projectakhir.repository.TransactionRepository;
-import com.alfin.projectakhir.repository.UserRepository;
+import com.project.projectakhir.entity.Transaction;
+import com.project.projectakhir.repository.TransactionRepository;
+import com.project.projectakhir.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

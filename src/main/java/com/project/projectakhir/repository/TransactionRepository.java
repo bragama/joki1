@@ -1,6 +1,6 @@
-package com.alfin.projectakhir.repository;
+package com.project.projectakhir.repository;
 
-import com.alfin.projectakhir.entity.Transaction;
+import com.project.projectakhir.entity.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TransactionRepository extends JpaRepository<Transaction, Long> {

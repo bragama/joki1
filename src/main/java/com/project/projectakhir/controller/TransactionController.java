@@ -1,7 +1,7 @@
-package com.alfin.projectakhir.controller;
+package com.project.projectakhir.controller;
 
-import com.alfin.projectakhir.entity.Transaction;
-import com.alfin.projectakhir.service.TransactionService;
+import com.project.projectakhir.entity.Transaction;
+import com.project.projectakhir.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

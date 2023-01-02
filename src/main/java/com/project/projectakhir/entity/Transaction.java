@@ -1,12 +1,15 @@
-package com.alfin.projectakhir.entity;
+package com.project.projectakhir.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
-import java.math.BigInteger;
+import java.util.Date;
 import java.util.List;
 
 @Data
@@ -33,8 +36,18 @@ public class Transaction {
     private List<ItemCategory> itemCategories;
 
     @JoinColumn(name = "price")
-    private BigInteger price;
+    private int price;
 
     @JoinColumn(name = "total")
     private int total;
+
+
+    @JsonFormat(pattern = "dd-MM-yyyy hh:MM:ss")
+    @CreationTimestamp
+    @Column(name = "created_at", nullable = false, updatable = false)
+    private Date createdAt;
+
+    @Column(name = "updated_at")
+    @UpdateTimestamp
+    private Date updatedAt;
 }

@@ -1,4 +1,4 @@
-package com.alfin.projectakhir.entity;
+package com.project.projectakhir.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
