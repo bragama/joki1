@@ -1,4 +1,4 @@
-package com.alfin.projectakhir.entity;
+package com.project.projectakhir.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -8,7 +8,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotBlank;
-import java.math.BigInteger;
 import java.util.List;
 
 @Data

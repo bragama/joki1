@@ -1,7 +1,7 @@
-package com.alfin.projectakhir.service;
+package com.project.projectakhir.service;
 
-import com.alfin.projectakhir.entity.ItemCategory;
-import com.alfin.projectakhir.repository.ItemCategoryRepository;
+import com.project.projectakhir.entity.ItemCategory;
+import com.project.projectakhir.repository.ItemCategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

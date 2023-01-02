@@ -1,4 +1,4 @@
-package com.alfin.projectakhir;
+package com.project.projectakhir;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

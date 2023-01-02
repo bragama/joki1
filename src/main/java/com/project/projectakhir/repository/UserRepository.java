@@ -1,6 +1,6 @@
-package com.alfin.projectakhir.repository;
+package com.project.projectakhir.repository;
 
-import com.alfin.projectakhir.entity.User;
+import com.project.projectakhir.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
